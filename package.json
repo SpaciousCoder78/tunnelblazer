@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "mitt": "^3.0.1",
     "node-openvpn": "0.1.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.2"

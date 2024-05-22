@@ -40,10 +40,13 @@
 <script>
   import { EventBus } from '../exportBus';
 
+  
+
   export default{
     methods:{
       setupClicked(){
-        EventBus.$emit('setup-clicked');
+        console.log("Fuck")
+        EventBus.emit('setup-clicked');
       }
     }
   }

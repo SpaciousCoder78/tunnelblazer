@@ -1,14 +1,16 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import miniRouter from './miniRouter';
+import {activateSetup} from './miniRouter'
 import setup from './components/setup.vue';
 import login from './components/login.vue';
+
 </script>
 
 <template>
   <div>
     <h1 id="banner">The Ho Chi Minh Trail</h1>
     <h3>Powered by <img src="/src/assets/OpenVPN_logo.svg" width="200" height="auto" loading="lazy"></h3>
+    <button @click="activateSetup= !activateSetup">Toggle activateSetup</button>
+
     <login v-if="!activateSetup"/>
     <setup v-else/>
     <!--Footer-->

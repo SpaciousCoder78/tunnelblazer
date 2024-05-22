@@ -25,7 +25,8 @@
       <br><br>
       <!--Connect button-->
       <button type="submit" class="btn btn-dark" >Connect</button>
-      <!--Setup button-->
+      <!--Setup button was moved from here to the app.vue 
+      to make my minirouter actually work-->
       <br><br>
     </form>
       </div>
@@ -50,7 +51,7 @@
 <style>
 
 button{
-  margin-right:0px
+  margin:auto
 }
 #loginbanner{
   padding: 10%;

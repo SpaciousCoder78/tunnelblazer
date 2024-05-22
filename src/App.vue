@@ -5,7 +5,15 @@ import login from './components/login.vue';
 
 <template>
   <div>
+    <h1 id="banner">The Ho Chi Minh Trail</h1>
+    <h3>Powered by <img src="/public/OpenVPN_logo.svg" width="200" height="auto" loading="lazy"></h3>
     <login/> 
+    <!--Footer-->
+    <div>
+      <footer>
+        <p>Designed and Developed by SpaciousCoder78</p>
+      </footer>
+    </div>
   </div>
 </template>
 

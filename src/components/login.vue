@@ -5,11 +5,13 @@
       <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
     <form >
       <h2 id="loginbanner">Login</h2>
-      <label>User ID:  </label>
-      <input>
-      <br><br>
-      <label>Password: </label>
-      <input>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">@</span>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group mb-3">
+        <input type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+      </div>
       <br><br>
       <button type="submit" class="btn btn-primary" >Connect</button>
       <button type="button" class="btn btn-primary">Setup</button>

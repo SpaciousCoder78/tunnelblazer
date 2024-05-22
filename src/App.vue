@@ -32,19 +32,16 @@ import login from './components/login.vue';
 <style scoped>
 
 #maincontainer{
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #setupbtn{
   
   width: 40%;
   height: 40%;
-  margin-right: 0%;
+  margin:auto;
 }
 .logo {
   height: 6em;

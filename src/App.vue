@@ -6,12 +6,12 @@ import login from './components/login.vue';
 <template>
   <div>
     <h1 id="banner">The Ho Chi Minh Trail</h1>
-    <h3>Powered by <img src="/public/OpenVPN_logo.svg" width="200" height="auto" loading="lazy"></h3>
+    <h3>Powered by <img src="/src/assets/OpenVPN_logo.svg" width="200" height="auto" loading="lazy"></h3>
     <login/> 
     <!--Footer-->
     <div>
       <footer>
-        <p>Built with <img src="/public/Vuejs.svg" width="100" height="auto" loading="lazy"> </p>
+        <p>Built with <img src="/src/assets/Vuejs.svg" width="100" height="auto" loading="lazy"> </p>
         <p>Designed and Developed by SpaciousCoder78</p>
       </footer>
     </div>

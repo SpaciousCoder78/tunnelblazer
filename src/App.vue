@@ -11,6 +11,7 @@ import login from './components/login.vue';
     <!--Footer-->
     <div>
       <footer>
+        <p>Built with <img src="/public/Vuejs.svg" width="100" height="auto" loading="lazy"> </p>
         <p>Designed and Developed by SpaciousCoder78</p>
       </footer>
     </div>

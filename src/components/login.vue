@@ -5,8 +5,6 @@
     <div>
     
     <!--Login container-->
-    <div class="container my-5">
-      <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
     <form >
       <!--login banner-->
       <h2 id="loginbanner">Login</h2>
@@ -28,24 +26,20 @@
       <!--Connect button-->
       <button type="submit" class="btn btn-dark" >Connect</button>
       <!--Setup button-->
-      <button type="button" @click="setupClicked" class="btn btn-dark">Setup</button>
-      <br><br><br><br>
+      <br><br>
     </form>
       </div>
-    </div>
-    
-  </div>
+
 </template>
 
 <script>
   import { EventBus } from '../exportBus';
-
-  
+  import { activateSetup } from '../miniRouter';
 
   export default{
     methods:{
       setupClicked(){
-        console.log("Fuck")
+        console.log()
         EventBus.emit('setup-clicked');
       }
     }
@@ -56,7 +50,7 @@
 <style>
 
 button{
-  margin-right:16px
+  margin-right:0px
 }
 #loginbanner{
   padding: 10%;

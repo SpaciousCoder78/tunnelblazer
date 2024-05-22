@@ -9,10 +9,16 @@ import login from './components/login.vue';
   <div>
     <h1 id="banner">The Ho Chi Minh Trail</h1>
     <h3>Powered by <img src="/src/assets/OpenVPN_logo.svg" width="200" height="auto" loading="lazy"></h3>
-    <button @click="activateSetup= !activateSetup">Toggle activateSetup</button>
+    <div id="main-container"class="container my-5">
+      <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
 
-    <login v-if="!activateSetup"/>
-    <setup v-else/>
+        <login v-if="!activateSetup"/>
+        <setup v-else/>
+        <button id="setupbtn" @click="activateSetup= !activateSetup" class="btn btn-dark">Toggle Setup Mode</button>
+        <br><br><br>
+      </div>
+    </div>
+    
     <!--Footer-->
     <div>
       <footer>
@@ -24,6 +30,22 @@ import login from './components/login.vue';
 </template>
 
 <style scoped>
+
+#maincontainer{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#setupbtn{
+  
+  width: 40%;
+  height: 40%;
+  margin-right: 0%;
+}
 .logo {
   height: 6em;
   padding: 1.5em;

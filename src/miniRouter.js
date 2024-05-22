@@ -5,7 +5,7 @@ export const activateSetup = ref(false);
 
 onMounted(() => {
   EventBus.on('setup-clicked', () => {
-    activateSetup.value = true;
+    activateSetup= true;
   });
 });
 

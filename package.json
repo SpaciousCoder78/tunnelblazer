@@ -9,11 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "node-openvpn": "0.1.1",
     "vue": "^3.4.21",
-    "node-openvpn":"0.1.1"
+    "vue-router": "^4.3.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
-    "vite": "^5.2.0"
+    "vite": "^5.2.0",
+    "vue-router": "^4.3.2"
   }
 }

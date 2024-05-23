@@ -51,7 +51,7 @@
 
 <!-------------------------------------------JavaScript Area------------------------------>
 <script>
-    import { ref } from 'vue';
+    import { reactive, provide, ref } from 'vue';
     import fs from 'fs';
 
 export default {
@@ -61,15 +61,28 @@ export default {
     const timeout = ref('');
     const logpath = ref('');
 
+    const data = reactive({
+      ip: ip.value,
+      port: port.value,
+      timeout: timeout.value,
+      logpath: logpath.value
+    });
+
+    console.log(data);
+    provide('configData',data);
+
     const saveData = () => {
-      const data = {
-        ip:ip.value,
-        port: port.value,
-        timeout: timeout.value,
-        logpath: logpath.value
-      };
+      data.ip = ip.value;
+      data.port = port.value;
+      data.timeout = timeout.value;
+      data.logpath = logpath.value;
       console.log(data);
+    
+      
+
+      /* use this later
       fs.writeFileSync('data.json', JSON.stringify(data));
+      */
 
       /*
 

@@ -36,11 +36,16 @@
 <script>
   import { EventBus } from '../exportBus';
   import { activateSetup } from '../miniRouter';
+  import {inject} from 'vue';
 
   export default{
+    setup(){
+      const data = inject('configData');
+      return {data};
+    },
     methods:{
       setupClicked(){
-        console.log()
+        console.log(data);
         EventBus.emit('setup-clicked');
       }
     }

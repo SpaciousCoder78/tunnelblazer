@@ -68,7 +68,8 @@ export default {
         timeout: timeout.value,
         logpath: logpath.value
       };
-      require('fs').writeFileSync('data.json', JSON.stringify(data));
+      console.log(data);
+      fs.writeFileSync('data.json', JSON.stringify(data));
 
       /*
 

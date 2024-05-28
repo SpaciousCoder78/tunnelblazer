@@ -8,7 +8,7 @@ import login from './components/login.vue';
 <template>
   <div>
     <!--Banner-->
-    <h1 id="banner">The Ho Chi Minh Trail</h1>
+    <h1 id="banner">TunnelBlazer</h1>
     <!--Powered by banner-->
     <h3>Powered by <img src="/src/assets/OpenVPN_logo.svg" width="200" height="auto" loading="lazy"></h3>
     <div id="main-container"class="container my-5">

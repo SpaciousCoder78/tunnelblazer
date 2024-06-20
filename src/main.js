@@ -18,6 +18,7 @@ const createWindow = () => {
     width: 800,
     height: 600,
     autoHideMenuBar:true,
+    icon: '../public/uncleho.jpg',
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
     },

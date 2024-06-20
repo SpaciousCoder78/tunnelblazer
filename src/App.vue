@@ -10,7 +10,7 @@ import login from './components/login.vue';
     <!--Banner-->
     <h1 id="banner">TunnelBlazer</h1>
     <!--Powered by banner-->
-    <h3>Powered by <img src="./src/assets/OpenVPN_logo.svg" width="200" height="auto" loading="lazy"></h3>
+    <h3>Powered by <img src="/src/assets/OpenVPN_logo.svg" width="200" height="auto" loading="lazy"></h3>
     <div id="main-container"class="container my-5">
       <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
         <!--I'm using Vue's if else to change between the components
@@ -29,7 +29,7 @@ import login from './components/login.vue';
     <div>
       <footer>
         <!--Just displaying the tech used-->
-        <p>Built with <img src="./src/assets/Vuejs.svg" width="100" height="auto" loading="lazy"> </p>
+        <p>Built with <img src="../src/assets/Vuejs.svg" width="100" height="auto" loading="lazy"> </p>
         <!--Why not a mention of myself?-->
         <p>Designed and Developed by SpaciousCoder78</p>
       </footer>
@@ -67,5 +67,12 @@ import login from './components/login.vue';
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
 }
 </style>

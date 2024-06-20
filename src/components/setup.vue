@@ -109,4 +109,11 @@ export default {
 #setupbanner{
     padding: 10%;
 }
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
 </style>

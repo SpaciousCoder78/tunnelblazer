@@ -29,9 +29,9 @@ import login from './components/login.vue';
     <div>
       <footer>
         <!--Just displaying the tech used-->
-        <p>Built with <img src="https://media.discordapp.net/attachments/981123797392424971/1256518127559114822/Vuejs.png?ex=66810f32&is=667fbdb2&hm=5cdf7b98f8c62256aba03e77c5f56c332d7c74e7ff3b8cb7bf7a6b5d9a11df10&=&format=webp&quality=lossless&width=750&height=450" width="100" height="auto" loading="lazy"> </p>
+        <p>Built with <img src="https://media.discordapp.net/attachments/981123797392424971/1256518127559114822/Vuejs.png?ex=66810f32&is=667fbdb2&hm=5cdf7b98f8c62256aba03e77c5f56c332d7c74e7ff3b8cb7bf7a6b5d9a11df10&=&format=webp&quality=lossless&width=750&height=450" width="100" height="auto" loading="lazy"> and <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Electron_Software_Framework_Logo.svg/2048px-Electron_Software_Framework_Logo.svg.png" width="50" height="auto" loading="lazy"> </p>
         <!--Why not a mention of myself?-->
-        <p>Designed and Developed by SpaciousCoder78</p>
+        <p>Designed and Developed by <br> SpaciousCoder78 and Lonelyguy123</p>
       </footer>
     </div>
   </div>

@@ -12,7 +12,7 @@ const createWindow = () => {
     center: true,
     maximizable: false,
     resizable: false,
-    icon: "https://media.discordapp.net/attachments/981123797392424971/1256518578660835369/Tunnelblazer.png?ex=66810f9e&is=667fbe1e&hm=282f86f89de7bc43bda92bbb40d8bcbffe872f8bbb4e451aae142d9501b01e5e&=&format=webp&quality=lossless&width=525&height=525",
+    icon: "../public/Tunnelblazer.ico",
     webPreferences: {
       preload: path.join(__dirname, "preload.js")
     }

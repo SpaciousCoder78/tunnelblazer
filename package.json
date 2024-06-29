@@ -23,6 +23,7 @@
     "@electron/fuses": "^1.8.0",
     "@vitejs/plugin-vue": "^5.0.5",
     "electron": "31.0.2",
+    "electron-prebuilt-compile": "^8.2.0",
     "mitt": "^3.0.1",
     "vite": "^5.3.1"
   },
@@ -35,10 +36,10 @@
   "dependencies": {
     "electron-squirrel-startup": "^1.0.1",
     "install": "^0.13.0",
+    "mitt": "^3.0.1",
     "node-openvpn": "^0.1.1",
     "npm": "^10.8.1",
     "vue": "^3.4.29",
-    "vue-router": "^4.3.3",
-    "mitt": "^3.0.1"
+    "vue-router": "^4.3.3"
   }
 }

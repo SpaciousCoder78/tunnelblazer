@@ -2,7 +2,7 @@
         File for setup component
 -->
 <template>
-    <div>
+    <div id="setupanel">
         <form>
             <h2 id="setupbanner">Setup</h2>
             <!--Host Address-->
@@ -115,5 +115,13 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+}
+#setuppanel {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: column;
 }
 </style>

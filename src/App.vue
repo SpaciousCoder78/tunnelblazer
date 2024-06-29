@@ -6,7 +6,7 @@ import login from './components/login.vue';
 </script>
 
 <template>
-  <div>
+  <div id="motherdiv">
     <!--Banner-->
     <h1 id="banner">TunnelBlazer</h1>
     <!--Powered by banner-->
@@ -41,17 +41,26 @@ import login from './components/login.vue';
 <!--================================CSS Holy Grail======================-->
 <style scoped>
 
-#maincontainer{
+/*#maincontainer{
   display: flex;
   justify-content: center;
   align-items: center;
+}*/
+
+#motherdiv {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: column;
 }
 
 #setupbtn{
   
   width: 40%;
   height: 40%;
-  margin:auto;
+
   margin-bottom: 40px;
 }
 

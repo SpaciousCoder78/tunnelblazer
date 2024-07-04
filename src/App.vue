@@ -6,11 +6,11 @@ import login from './components/login.vue';
 </script>
 
 <template>
-  <div>
+  <div id="motherdiv">
     <!--Banner-->
     <h1 id="banner">TunnelBlazer</h1>
     <!--Powered by banner-->
-    <h3>Powered by <img src="/src/assets/OpenVPN_logo.svg" width="200" height="auto" loading="lazy"></h3>
+    <h3>Powered by <img src="https://media.discordapp.net/attachments/981123797392424971/1256518127001276498/OpenVPN_logo.png?ex=66810f32&is=667fbdb2&hm=d9dc107fc297de30a6bbf56d7330ff3d31c1732de22f22d7e963d46657a4d554&=&format=webp&quality=lossless&width=1440&height=265" width="200" height="auto" loading="lazy"></h3>
     <div id="main-container"class="container my-5">
       <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
         <!--I'm using Vue's if else to change between the components
@@ -29,9 +29,9 @@ import login from './components/login.vue';
     <div>
       <footer>
         <!--Just displaying the tech used-->
-        <p>Built with <img src="/src/assets/Vuejs.svg" width="100" height="auto" loading="lazy"> </p>
+        <p>Built with <img src="https://media.discordapp.net/attachments/981123797392424971/1256518127559114822/Vuejs.png?ex=66810f32&is=667fbdb2&hm=5cdf7b98f8c62256aba03e77c5f56c332d7c74e7ff3b8cb7bf7a6b5d9a11df10&=&format=webp&quality=lossless&width=750&height=450" width="100" height="auto" loading="lazy"> and <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Electron_Software_Framework_Logo.svg/2048px-Electron_Software_Framework_Logo.svg.png" width="50" height="auto" loading="lazy"> </p>
         <!--Why not a mention of myself?-->
-        <p>Designed and Developed by SpaciousCoder78</p>
+        <p>Designed and Developed by <br> SpaciousCoder78 and Lonelyguy123</p>
       </footer>
     </div>
   </div>
@@ -41,17 +41,26 @@ import login from './components/login.vue';
 <!--================================CSS Holy Grail======================-->
 <style scoped>
 
-#maincontainer{
+/*#maincontainer{
   display: flex;
   justify-content: center;
   align-items: center;
+}*/
+
+#motherdiv {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: column;
 }
 
 #setupbtn{
   
   width: 40%;
   height: 40%;
-  margin:auto;
+
   margin-bottom: 40px;
 }
 
@@ -67,5 +76,12 @@ import login from './components/login.vue';
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
 }
 </style>

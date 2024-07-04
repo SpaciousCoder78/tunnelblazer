@@ -2,7 +2,7 @@
 
 <!--Login component-->
 <template>
-    <div>
+    <div id="loginpanel">
     
     <!--Login container-->
     <form >
@@ -64,5 +64,13 @@ button{
 #banner{
   padding:5%;
   font-family:Dancing Script;
+}
+#loginpanel {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: column;
 }
 </style>
